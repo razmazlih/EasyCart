@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.Python
+
+# Django Migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# Database
+*.sqlite3
+*.db
+
+# Media & Static Files
+/media/
+staticfiles/
+static/
+
+# VS Code Settings
+.vscode/
+
+# PyCharm Settings
+.idea/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+.env.*
+
+# Coverage Reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Node.js (אם יש React/Next.js בפרויקט)
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# Cloudinary Cache (במידה ואתה עובד עם Cloudinary)
+cloudinary_cache/
+
+# Pip Dependencies
+pip-log.txt
+pip-delete-this-directory.txt
